@@ -147,6 +147,7 @@ $(function() {
     var formEntries = {
         nim:    "entry.2025209625",
         nama:   "entry.1022360252",
+        telepon:"entry.1387741161",
         division: [
             "entry.806464474",
             "entry.1248643119",
@@ -181,9 +182,10 @@ $(function() {
         form.attr('action', url);
         form.html('');
 
-        // nim and nama
+        // nim and nama and telepon
         form.append('<input type="text" name="' + formEntries.nim + '" value="' + $('#nim').val() + '">');
         form.append('<input type="text" name="' + formEntries.nama + '" value="' + $('#nama').val() + '">');
+        form.append('<input type="text" name="' + formEntries.telepon + '" value="' + $('#telepon').val() + '">');
 
         // division orders
         $('.division-item').each(function(i, e) {
