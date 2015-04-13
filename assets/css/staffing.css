@@ -64,3 +64,7 @@ input.error, textarea.error, input.error:focus, textarea.error:focus {
     color: red;
     display: none;
 }
+
+.modal .info {
+    margin-bottom: 10px;
+}
