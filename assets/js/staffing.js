@@ -113,8 +113,8 @@ $(function() {
     }
 
     function fillModal() {
-        // nim-nama
-        $('#nim-nama-review').html($('#nim').val() + " / " + $('#nama').val());
+        // nim-nama-telepon
+        $('#nim-nama-review').html($('#nim').val() + " / " + $('#nama').val() + " / " + $('#telepon').val());
         // division order
         var order = $('#division-review');
         order.html('<ol></ol>');
