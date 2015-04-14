@@ -1,20 +1,20 @@
 $(function() {
     var division = [
-        'Staf Sekretaris',
-        'Staf Bendahara',
-        'MSDA',
-        'Akademik dan Beasiswa',
-        'Kaderisasi',
         'Medinfo',
-        'Kekeluargaan',
+        'Sekretaris',
+        'Bendahara',
         'Rumah Tangga',
+        'Kekeluargaan',
         'PMB',
-        'Teknikal',
-        'Manajemen Proyek',
-        'Marketing',
         'Intrakampus',
         'Ekstrakampus',
         'Pengabdian Masyarakat',
+        'MSDA',
+        'Akademik dan Beasiswa',
+        'Kaderisasi',
+        'Teknikal',
+        'Marketing',
+        'Manajemen Proyek',
         'Tim Senator'
     ];
     var divisionItemTemplate =
