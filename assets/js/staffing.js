@@ -15,8 +15,7 @@ $(function() {
         'Teknikal',
         'Marketing',
         'Manajemen Proyek',
-        'Tim Senator',
-        'DPP'
+        'Tim Senator'
     ];
     var divisionItemTemplate =
         '<div class="col-md-3 col-sm-4 col-xs-6 division-item">'
